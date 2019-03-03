@@ -10,6 +10,7 @@ RUN apk add apache-ant --update-cache \
 	--repository http://dl-cdn.alpinelinux.org/alpine/edge/community/ \
 	--allow-untrusted
 RUN apk add openssh
+RUN apk add openssl
 RUN apk add git
 
 ADD https://gs0.salesforce.com/dwnld/SfdcAnt/salesforce_ant_44.0.zip /tmp/
